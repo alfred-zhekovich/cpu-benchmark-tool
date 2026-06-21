@@ -1,7 +1,7 @@
 # Multiprocessing Performance Benchmark & Search Tool
 
 A high-performance, multi-core benchmarking utility written in Python. It evaluates CPU processing power by performing a matrix-based combinatorial search across an indexed character space.
-
+![Benchmark Preview](PREWIEW.png)
 ## Features
 - **True Multiprocessing:** Automatically detects and scales workload across all available CPU cores using Python's `multiprocessing` module.
 - **Index-Based Optimization:** Eliminates runtime string concatenation bottlenecks by managing candidate sequences as numerical index arrays.
